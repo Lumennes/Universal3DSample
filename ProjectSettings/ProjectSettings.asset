@@ -52,7 +52,7 @@ PlayerSettings:
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
   mipStripping: 1
-  numberOfMipsStripped: 0
+  numberOfMipsStripped: 1
   numberOfMipsStrippedPerMipmapLimitGroup: {}
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
   iosShowActivityIndicatorOnLoading: -1
@@ -274,7 +274,7 @@ PlayerSettings:
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
