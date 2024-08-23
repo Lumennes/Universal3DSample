@@ -56,7 +56,6 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - Nintendo Switch
-    - Android
     - iPhone
     - PS4
     - PS5
@@ -118,6 +117,9 @@ QualitySettings:
     - GameCoreScarlett
     - Windows Store Apps
     - Standalone
+    - Server
+    - Android
+    - WebGL
   - serializedVersion: 3
     name: PC Low
     pixelLightCount: 2
@@ -176,6 +178,8 @@ QualitySettings:
     - GameCoreScarlett
     - Windows Store Apps
     - Standalone
+    - Server
+    - WebGL
   - serializedVersion: 3
     name: PC High
     pixelLightCount: 2
@@ -229,9 +233,11 @@ QualitySettings:
     - Nintendo Switch
     - iPhone
     - Standalone
+    - Server
+    - WebGL
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
-    Android: 1
+    Android: 0
     GameCoreScarlett: 3
     GameCoreXboxOne: 3
     Lumin: 0
